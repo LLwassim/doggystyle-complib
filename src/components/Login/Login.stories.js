@@ -1,8 +1,8 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
 //importing storiesOf(prebaked method) from the storybook component
-import "./Login";
-import Login from './Login';
+import "./Login.css";
+import Login from './Login.js';
 //importing a login div from the login component
 
 
