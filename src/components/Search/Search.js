@@ -49,13 +49,13 @@ export default class Search extends Component {
                 ))}
               </select>
               {this.state.value === "" ? (
-                <Link to={`/search`}>
+                <a href={`/search`}>
                   <i class="fas fa-dog"></i>
-                </Link>
+                </a>
               ) : (
-                <Link to={`/search/results/${this.state.value}`}>
+                <a href={`/search/results/${this.state.value}`}>
                   <i class="fas fa-dog"></i>
-                </Link>
+                </a>
               )}
             </form>
           </main>

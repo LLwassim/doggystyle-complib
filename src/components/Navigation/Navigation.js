@@ -6,15 +6,15 @@ function Navigation() {
   return (
     <nav className="navigation">
       <ul>
-        <Link className="nav-li" to="/">
+        <a className="nav-li" href="/">
           Home
-        </Link>
-        <Link className="nav-li" to="/search">
+        </a>
+        <a className="nav-li" href="/search">
           Search
-        </Link>
-        <Link className="nav-li" to="/">
+        </a>
+        <a className="nav-li" href="/">
           Logout
-        </Link>
+        </a>
       </ul>
     </nav>
   );

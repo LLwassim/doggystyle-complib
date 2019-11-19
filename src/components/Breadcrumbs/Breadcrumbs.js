@@ -5,14 +5,14 @@ function Breadcrumbs() {
   return (
     <div className="breadcrumbs">
       <div className="home-wrap">
-        <Link to="/" className="home-link">
+        <a href="/" className="home-link">
           <i class="fas fa-paw"></i>
-        </Link>
+        </a>
       </div>
-      <Link to="/" className="home-link">
+      <a href="/" className="home-link">
         {" "}
         > <span> Search</span>
-      </Link>
+      </a>
     </div>
   );
 }
